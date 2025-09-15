@@ -134,7 +134,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    "https://tracker-fr.vercel.app/",
+    "https://tracker-fr.vercel.app",
 ]
 
 # Configure Django Rest Framework
