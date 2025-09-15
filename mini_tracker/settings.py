@@ -133,8 +133,8 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173", # The default Vite dev server port
-    "http://127.0.0.1:5173",
+    "http://localhost:5173",
+    "https://tracker-fr.vercel.app/",
 ]
 
 # Configure Django Rest Framework
